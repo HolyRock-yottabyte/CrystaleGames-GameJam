@@ -23,6 +23,7 @@ public class groundCheck : MonoBehaviour
         if(col.gameObject.layer == 7)
         {
             grounded = true;
+            pc.currentJumps = pc.maxJumps;
         }
     }
 

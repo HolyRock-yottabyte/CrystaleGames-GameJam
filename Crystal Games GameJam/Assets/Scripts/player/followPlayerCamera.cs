@@ -11,11 +11,18 @@ public class followPlayerCamera : MonoBehaviour
     }
 
     
-    void Update()
+    void LateUpdate()
     {
-        Vector3 toGo = Vector3.Lerp(transform.position, GameObject.Find("player").transform.position, 0.1f);
-        toGo.z = -10;
+        if(GameObject.Find("player") !=null)
+        {
+            Vector3 toGo = GameObject.Find("player").transform.position;
+            toGo.z = -10;
+            toGo.y += 0.6f;
 
-        transform.position = toGo;
+            transform.position = toGo;
+        }
+
+
+        
     }
 }
