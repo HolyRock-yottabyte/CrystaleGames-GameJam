@@ -10,6 +10,7 @@ public class playerController : MonoBehaviour
     public float speed, jumpForce;
 
     public int maxJumps, currentJumps;
+    
 
     public Rigidbody2D rb2D;
 
@@ -20,6 +21,8 @@ public class playerController : MonoBehaviour
         canMove = true;
 
         rb2D = GetComponent<Rigidbody2D>();
+
+        
     }
 
     
@@ -35,6 +38,8 @@ public class playerController : MonoBehaviour
         {
             jump();
         }
+
+        
     }
 
     public void jump()
@@ -48,6 +53,7 @@ public class playerController : MonoBehaviour
         transform.position = spawn.transform.position;
         vhs.SetActive(true);
         Invoke("backAgain", 0.2f);
+        
     }
 
     void FixedUpdate()
@@ -71,4 +77,7 @@ public class playerController : MonoBehaviour
     {
         vhs.SetActive(false);
     }
+
+   
+
 }
