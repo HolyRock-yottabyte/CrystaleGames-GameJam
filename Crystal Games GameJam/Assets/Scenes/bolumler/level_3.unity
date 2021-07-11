@@ -37375,7 +37375,7 @@ MonoBehaviour:
   canMove: 0
   isGrounded: 0
   speed: 5
-  jumpForce: 20
+  jumpForce: 23
   maxJumps: 1
   currentJumps: 0
   rb2D: {fileID: 0}
