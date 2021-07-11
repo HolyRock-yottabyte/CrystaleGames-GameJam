@@ -43,7 +43,7 @@ public class playerController : MonoBehaviour
 
     public void die()
     {
-        transform.position = new Vector3(0, 0, 0);
+        transform.position = new Vector3(-7,2,0);
     }
 
     void FixedUpdate()
@@ -51,6 +51,14 @@ public class playerController : MonoBehaviour
         if(canMove)
         {
             transform.position += moveInput;
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if(other.gameObject.tag == "Enemy")
+        {
+            die();
         }
     }
 }

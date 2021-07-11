@@ -6,9 +6,9 @@ public class EnemyScript : MonoBehaviour
 {
     public float speed = 2f;    // Takip Hýzý
 
-    [HideInInspector]
+    
     public bool hasTarget = false;  // Ýlerlemek için hedef var mý
-    [HideInInspector]
+    
     public GameObject target;   // Kime yakýnlaþsýn 
 
     private Rigidbody2D rb;
