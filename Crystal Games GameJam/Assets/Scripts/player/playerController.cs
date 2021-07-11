@@ -13,7 +13,7 @@ public class playerController : MonoBehaviour
 
     public Rigidbody2D rb2D;
 
-    public GameObject spawn;
+    public GameObject spawn, vhs;
     
     void Start()
     {
@@ -46,6 +46,8 @@ public class playerController : MonoBehaviour
     public void die()
     {
         transform.position = spawn.transform.position;
+        vhs.SetActive(true);
+        Invoke("backAgain", 0.2f);
     }
 
     void FixedUpdate()
@@ -55,5 +57,18 @@ public class playerController : MonoBehaviour
         {
             transform.position += moveInput;
         }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.tag == "enemy")
+        {
+            die();
+        }
+    }
+
+    void backAgain()
+    {
+        vhs.SetActive(false);
     }
 }

@@ -26,4 +26,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/bolumler/level_2.unity
     guid: 2fa0fcc7a7cd0314d85a02c7c2414cb7
+  - enabled: 1
+    path: Assets/Scenes/bolumler/level_4.unity
+    guid: db6a1668034f9e548b67ddcf52240db1
+  - enabled: 1
+    path: Assets/Scenes/kasetler/tape5.unity
+    guid: cd6a4266f18553a4aa422e176a16c76c
   m_configObjects: {}
