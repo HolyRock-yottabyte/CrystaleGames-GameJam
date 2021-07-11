@@ -824,7 +824,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "proje bir \"sanal oyun\" olarak grupland\u0131r\u0131lmal\u0131d\u0131r"
+  m_Text: "!epilepsi krizini tetikleyebilecek \xF6\u011Feler!"
 --- !u!222 &1098740656
 CanvasRenderer:
   m_ObjectHideFlags: 0
