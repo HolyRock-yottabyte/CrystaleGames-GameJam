@@ -12,6 +12,8 @@ public class playerController : MonoBehaviour
     public int maxJumps, currentJumps;
 
     public Rigidbody2D rb2D;
+
+    public GameObject spawn;
     
     void Start()
     {
@@ -43,11 +45,12 @@ public class playerController : MonoBehaviour
 
     public void die()
     {
-        transform.position = new Vector3(0, 0, 0);
+        transform.position = spawn.transform.position;
     }
 
     void FixedUpdate()
     {
+
         if(canMove)
         {
             transform.position += moveInput;
