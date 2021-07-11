@@ -78297,10 +78297,11 @@ MonoBehaviour:
   isGrounded: 0
   speed: 5
   jumpForce: 18
-  maxJumps: 2
+  maxJumps: 1
   currentJumps: 0
   rb2D: {fileID: 0}
   spawn: {fileID: 1370362320}
+  vhs: {fileID: 0}
 --- !u!50 &2062443509
 Rigidbody2D:
   serializedVersion: 4

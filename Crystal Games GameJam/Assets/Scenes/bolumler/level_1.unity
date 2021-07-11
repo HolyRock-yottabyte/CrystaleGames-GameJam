@@ -2031,10 +2031,11 @@ MonoBehaviour:
   isGrounded: 0
   speed: 5
   jumpForce: 18
-  maxJumps: 2
+  maxJumps: 1
   currentJumps: 0
   rb2D: {fileID: 0}
   spawn: {fileID: 1923903420}
+  vhs: {fileID: 0}
 --- !u!1 &416665574
 GameObject:
   m_ObjectHideFlags: 0
