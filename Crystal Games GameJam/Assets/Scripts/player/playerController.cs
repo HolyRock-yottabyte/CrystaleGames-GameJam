@@ -12,6 +12,8 @@ public class playerController : MonoBehaviour
     public int maxJumps, currentJumps;
 
     public Rigidbody2D rb2D;
+
+    public GameObject spawn;
     
     void Start()
     {
@@ -43,22 +45,15 @@ public class playerController : MonoBehaviour
 
     public void die()
     {
-        transform.position = new Vector3(-7,2,0);
+        transform.position = spawn.transform.position;
     }
 
     void FixedUpdate()
     {
+
         if(canMove)
         {
             transform.position += moveInput;
-        }
-    }
-
-    private void OnCollisionEnter2D(Collision2D other)
-    {
-        if(other.gameObject.tag == "Enemy")
-        {
-            die();
         }
     }
 }

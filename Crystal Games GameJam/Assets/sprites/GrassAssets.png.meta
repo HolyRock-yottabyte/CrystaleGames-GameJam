@@ -1,9 +1,6 @@
 fileFormatVersion: 2
 guid: fefe2fed63e3a90429fa677cd8679309
 TextureImporter:
-<<<<<<< Updated upstream
-  internalIDToNameTable: []
-=======
   internalIDToNameTable:
   - first:
       213: -5298250198414692728
@@ -32,7 +29,6 @@ TextureImporter:
   - first:
       213: 2428515814987719241
     second: GrassAssets_8
->>>>>>> Stashed changes
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -120,9 +116,6 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-<<<<<<< Updated upstream
-    sprites: []
-=======
     sprites:
     - serializedVersion: 2
       name: GrassAssets_0
@@ -191,7 +184,7 @@ TextureImporter:
       name: GrassAssets_3
       rect:
         serializedVersion: 2
-        x: 32
+        x: 16
         y: 448
         width: 16
         height: 16
@@ -213,7 +206,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 432
+        y: 448
         width: 16
         height: 16
       alignment: 0
@@ -233,8 +226,8 @@ TextureImporter:
       name: GrassAssets_5
       rect:
         serializedVersion: 2
-        x: 16
-        y: 448
+        x: 32
+        y: 432
         width: 16
         height: 16
       alignment: 0
@@ -254,8 +247,8 @@ TextureImporter:
       name: GrassAssets_6
       rect:
         serializedVersion: 2
-        x: 16
-        y: 432
+        x: 0
+        y: 448
         width: 16
         height: 16
       alignment: 0
@@ -275,8 +268,8 @@ TextureImporter:
       name: GrassAssets_7
       rect:
         serializedVersion: 2
-        x: 0
-        y: 448
+        x: 16
+        y: 432
         width: 16
         height: 16
       alignment: 0
@@ -313,7 +306,6 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
->>>>>>> Stashed changes
     outline: []
     physicsShape: []
     bones: []
