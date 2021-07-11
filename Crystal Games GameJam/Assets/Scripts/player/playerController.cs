@@ -31,7 +31,7 @@ public class playerController : MonoBehaviour
 
         //jump
 
-        if(Input.GetKeyDown(KeyCode.UpArrow) && currentJumps > 0)
+        if(Input.GetKeyDown(KeyCode.UpArrow) && currentJumps > 0 && canMove)
         {
             jump();
         }

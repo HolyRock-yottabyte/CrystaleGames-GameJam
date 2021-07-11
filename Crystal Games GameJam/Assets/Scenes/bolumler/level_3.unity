@@ -2696,7 +2696,7 @@ MonoBehaviour:
   priority: 1
   blendDistance: 0
   weight: 1
-  sharedProfile: {fileID: 11400000, guid: 4c41150110dc27d4a96301b564e7702d, type: 2}
+  sharedProfile: {fileID: 11400000, guid: 8b29e9e1018f242489d280c48299beb4, type: 2}
 --- !u!4 &1350340217
 Transform:
   m_ObjectHideFlags: 0
@@ -36731,7 +36731,7 @@ MonoBehaviour:
   isGrounded: 0
   speed: 5
   jumpForce: 20
-  maxJumps: 1
+  maxJumps: 2
   currentJumps: 0
   rb2D: {fileID: 0}
   spawn: {fileID: 1966212427}
@@ -37122,7 +37122,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.105882354}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

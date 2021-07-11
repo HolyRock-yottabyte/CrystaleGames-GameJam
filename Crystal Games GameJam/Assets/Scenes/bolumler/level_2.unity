@@ -40783,7 +40783,7 @@ MonoBehaviour:
   isGrounded: 0
   speed: 5
   jumpForce: 16
-  maxJumps: 1
+  maxJumps: 2
   currentJumps: 0
   rb2D: {fileID: 0}
   spawn: {fileID: 1377159488}
